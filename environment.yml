@@ -1,0 +1,19 @@
+name: sl-ipl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - matplotlib
+  - plotly
+  - seaborn
+  - tqdm
+  - numpy
+  - scipy
+  - scikit-learn
+  - autograd
+  - jaxopt
+  - jax
+  - pip
+  - ipython
+  - pip:
+    - pyyaml
