@@ -2,18 +2,14 @@ name: sl-ipl
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
+  - python=3.8.11
   - matplotlib
-  - plotly
-  - seaborn
+  - joblib
   - tqdm
   - numpy
-  - scipy
-  - scikit-learn
-  - autograd
-  - jaxopt
-  - jax
-  - pip
+  - sys
+  - os
+  - pip 
   - ipython
   - pip:
     - pyyaml
